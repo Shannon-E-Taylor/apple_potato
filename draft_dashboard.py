@@ -13,6 +13,7 @@ ICs = simulation[simulation['Time'] == 1]
 name = '1'
 
 app = dash.Dash(__name__)
+server=app.server
 
 app.layout = html.Div([
     html.Div([
