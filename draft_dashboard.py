@@ -44,7 +44,7 @@ def update_line_graph(clickData):
 
     track_id = clickData['points'][0]['customdata'][0]
     track_id = f'{track_id}.0'
-    track_id = 1000091997.0
+    # track_id = 1000091997.0
 
     fname = f'data/net{name}_trackID_{track_id}.csv'
     tempo_fname = f'data/net{name}_tempo_trackID_{track_id}.csv'
